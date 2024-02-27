@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+.section-padding {
+    padding: 100px 0px;
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
@@ -51,6 +55,10 @@ header {
     font-family: "Sniglet";
 }
 
+.nav-item {
+    padding: 8px;
+}
+
 .nav-item .nav-link {
     color: white;
     font-family: "Sniglet";
@@ -78,4 +86,125 @@ header {
 .hero .hero-buy-now-btn {
     padding: 8px 48px;
 
+}
+
+/* section 1 */
+.section-2-left-wrapper {
+    z-index: 0;
+}
+
+.section-2-right-wrapper {
+    padding: 110px 42px 170px 85px;
+    position: relative;
+    left: -191px;
+    bottom: -60px;
+    z-index: 1;
+    background-color: white;
+}
+
+.section-2-right-wrapper h2 {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        height: 170vh;
+    }
+
+    .hero .hero-title {
+        /* font-size: 45px; */
+        font-weight: 500;
+        font-family: "Rubik";
+    }
+
+    .hero .hero-left {
+        padding-top: 150px !important;
+        margin-top: 0px !important;
+    }
+
+
+    .hero .hero-right {
+        padding-top: 180px;
+    }
+
+    .hero-left .hero-text-wrapper {
+        width: 100% !important;
+    }
+
+    .hero .hero-title {
+        font-size: 45px;
+        font-weight: 500;
+        font-family: "Rubik";
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hero .hero-left {
+        padding-top: 150px !important;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    header {
+        height: 100vh !important;
+    }
+
+    .hero .hero-title {
+        font-size: 60px;
+        font-weight: 500;
+        font-family: "Rubik";
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    header {
+        height: 100vh !important;
+    }
+
+    .hero-left .hero-text-wrapper {
+        width: 100% !important;
+    }
+
+    .hero .hero-title {
+        font-size: 65px;
+        font-weight: 500;
+        font-family: "Rubik";
+    }
+
+    .hero .hero-left {
+        padding-top: 155px;
+        margin-top: 0px !important;
+    }
+
+    .hero-title-wrapper {}
+
+    .hero-title {
+        /* width: 50%; */
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .hero-left .hero-text-wrapper {
+        width: 75% !important;
+    }
+
+    .hero-title-wrapper {
+        width: 75%;
+
+    }
+
+    .hero-title {
+        /* width: 50%; */
+    }
 }
