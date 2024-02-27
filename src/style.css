@@ -93,6 +93,21 @@ header {
     z-index: 0;
 }
 
+
+
+.section-2-right-wrapper h2 {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.section-2-right-wrapper p {
+    font-size: 14.4px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 21px;
+
+}
+
 .section-2-right-wrapper {
     padding: 110px 42px 170px 85px;
     position: relative;
@@ -102,17 +117,11 @@ header {
     background-color: white;
 }
 
-.section-2-right-wrapper h2 {
-    font-size: 32px;
-    font-weight: 700;
-
-}
-
 
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 576px) {
     header {
         height: 170vh;
     }
@@ -128,7 +137,6 @@ header {
         margin-top: 0px !important;
     }
 
-
     .hero .hero-right {
         padding-top: 180px;
     }
@@ -141,6 +149,10 @@ header {
         font-size: 45px;
         font-weight: 500;
         font-family: "Rubik";
+    }
+
+    .section-2-right-wrapper {
+        position: static;
     }
 }
 
@@ -161,6 +173,15 @@ header {
         font-size: 60px;
         font-weight: 500;
         font-family: "Rubik";
+    }
+
+    .section-2-right-wrapper {
+        position: static;
+    }
+
+    .section-2-left-wrapper img {
+        /* width: 90%; */
+
     }
 }
 
@@ -191,6 +212,21 @@ header {
         /* width: 50%; */
     }
 
+    .section-2-left-wrapper img {
+        width: 85%;
+    }
+
+    .section-2-right-wrapper {
+        padding: 110px 42px 170px 85px;
+        width: 650px;
+        /* height: 290px; */
+        position: relative;
+        left: -191px;
+        bottom: -60px;
+        z-index: 1;
+        background-color: white;
+    }
+
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -204,7 +240,21 @@ header {
 
     }
 
+    /* .section-2-left-wrapper img {
+        height: 95%;
+    } */
+
     .hero-title {
         /* width: 50%; */
     }
+
+    /* .section-2-right-wrapper {
+        padding: 110px 42px 34px 85px;
+        position: relative;
+        left: -146px;
+        bottom: -60px;
+        z-index: 1;
+        width: 134%;
+        background-color: white;
+    } */
 }
