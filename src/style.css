@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sniglet:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
+}
+
+.dropdown-menu {
+    /* min-height: 100px */
+    padding: 0px;
+}
+
+.dropdown-item {
+    /* padding: 5px 0px; */
+    font-family: "Sniglet";
+
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+header {
+    background: linear-gradient(to bottom, #dd2476, #ff512f);
+    ;
+    height: 100vh;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #0056b3;
+}
+
+.navbar-brand i {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.navbar-brand span {
+    font-family: "Sniglet";
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-family: "Sniglet";
+}
+
+.nav-item .nav-link:hover {
+    color: black;
+}
+
+.hero .hero-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: "Rubik";
+}
+
+.hero .hero-title {
+    font-size: 65px;
+    font-weight: 500;
+    font-family: "Rubik";
+}
+
+.hero .hero-text {}
+
+.hero .hero-buy-now-btn {
+    padding: 8px 48px;
+
+}
