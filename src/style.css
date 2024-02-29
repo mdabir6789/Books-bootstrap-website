@@ -81,8 +81,6 @@ header {
     font-family: "Rubik";
 }
 
-.hero .hero-text {}
-
 .hero .hero-buy-now-btn {
     padding: 8px 48px;
 
@@ -286,13 +284,14 @@ header {
         margin-top: 0px !important;
     }
 
-    .hero-title-wrapper {}
+    /* 
+    .hero-title-wrapper {} */
 
-    .hero-title {
+    /* .hero-title {
         /* width: 50%; */
-    }
+    /* } */
 
-    .section-2-left-wrapper img {
+    */ .section-2-left-wrapper img {
         width: 85%;
     }
 
@@ -333,9 +332,7 @@ header {
         height: 95%;
     } */
 
-    .hero-title {
-        /* width: 50%; */
-    }
+
 
     /* .section-2-right-wrapper {
         padding: 110px 42px 34px 85px;
