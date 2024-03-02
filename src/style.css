@@ -11,6 +11,11 @@
     padding: 100px 0px;
 }
 
+.bg-gradient {
+    background: linear-gradient(to bottom, #dd2476, #ff512f) !important;
+
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
@@ -33,8 +38,7 @@
 }
 
 header {
-    background: linear-gradient(to bottom, #dd2476, #ff512f);
-    ;
+
     height: 100vh;
 }
 
@@ -232,9 +236,44 @@ header {
 
 
 
+/* section 3 */
 
+.section-3-top {}
 
+.section-3-top .section-3-top-title {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
 
+.section-3-top .section-3-top-text {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 3vmin;
+}
+
+.desktop-inner-wrapper {
+    padding: 14px 32px;
+}
+
+.desktop i {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.desktop h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.desktop p {
+    font-size: 2vmin;
+}
+
+.desktop-wrapper {
+    padding-bottom: 84px;
+}
 
 
 
