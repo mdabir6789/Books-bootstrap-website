@@ -275,6 +275,121 @@ header {
     padding-bottom: 84px;
 }
 
+/* section 4  */
+.section-4 .section-4-header {}
+
+.section-4 .section-4-header h1 {
+    font-size: 6vmin;
+    /* padding-top: 14vmin; */
+}
+
+.section-4 .section-4-header p {
+    margin-bottom: 1rem;
+}
+
+.team .team-member {
+    padding: 0px 20px 0px 20px;
+}
+
+.team .team-member img {
+    width: 60%;
+}
+
+.section-4 .card {
+    width: 80%;
+}
+
+.team .team-member .card-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.team .team-member .card-text {
+    padding: 0.5em;
+    color: #2e2c2caf;
+}
+
+.team .team-member a {
+    font-size: 1.5em;
+    color: #6c757d !important;
+
+}
+
+.team .team-member .designation {
+    color: rgba(0, 0, 0, .5) !important;
+
+}
+
+.member-slide-wrapper {}
+
+.member-slide-wrapper img {
+    width: 60% !important;
+}
+
+.member-slide-wrapper {}
+
+.team-member img {
+    border-radius: 100px;
+}
+
+.carousel-item {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.team-member .carousel-item img {
+    height: 127px;
+    width: 127px !important;
+}
+
+.carousel-item img {}
+
+/* footer section  */
+.footer {
+    background: rgba(0, 0, 0, 0.815);
+}
+
+.footer .title {
+    color: #f8f9fa !important;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-tomato {
+    color: tomato;
+}
+
+.footer .subtitle {
+    color: #6c757d !important;
+    font-size: 16px;
+}
+
+.footer i {
+    font-weight: 900;
+    /* padding: 30px; */
+    padding: 17px 17px;
+    position: relative;
+    left: -5px;
+    top: -2px;
+    padding-top: 17px;
+}
+.footer input{
+    padding-top: 7px;
+    /* border: 0px; */
+}
+.footer input:focus-visible{
+    /* border: 1px; */
+}
+.footer input:focus{
+    border-radius: 10px;
+
+}
+.footer input::placeholder{
+   color: white;
+}
+
+
 
 
 
