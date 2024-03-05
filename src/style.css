@@ -15,7 +15,14 @@
     background: linear-gradient(to bottom, #dd2476, #ff512f) !important;
 
 }
-
+.fixed-top{
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.815); */
+    /* z-index: 9999;
+    transition: all 1.5s ease; */ */
+}
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
